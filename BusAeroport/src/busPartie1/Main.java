@@ -15,6 +15,7 @@ public class Main {
 	 * Mais aussi savoir combien de temps il faudra attendre.
 	 * Ainsi il faut multiplier le numéro bus avec le temps d'attente au quai pour avoir le résultat.
 	 * 
+	 * 
 	 * Exemple : J'arrive au quai à 404 minutes
 	 * Les bus disponibles sont : "2,x,49,x,x"
 	 * 
@@ -65,9 +66,9 @@ public class Main {
 		String s = "";												// Variable pour prendre tous les bus disponibles (éviter les ',' et 'x')
 		long num;													// Variable pour pouvoir prendre le numéro du bus (pris par chaques caractères de 's')
 		boolean bb = false;											// Variable booléenne pour pouvoir faire une boucle et chercher le prochain bus à tel horodatage
-		long r=0;													// Variable correspondant au minutes attendu au quai
+		long r=0;													// Variable correspondant aux minutes attendus au quai
 		long idbus=0;												// Variable correspondant au numéro du prochain bus
-		long max = Integer.MIN_VALUE;								// Variable correspondant au minutes attendu au quai mais permet de savoir aussi s'il n'y a aucun bus
+		long max = Integer.MIN_VALUE;								// Variable correspondant aux minutes attendus au quai mais permet de savoir aussi s'il n'y a aucun bus
 		
 		for(int c=0; c<buslist.length(); c++) {						// Boucle pour compléter la liste des bus disponibles
 			if(buslist.charAt(c)!=',') {								// Si le caractère n'est pas une virgule...
