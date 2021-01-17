@@ -34,7 +34,7 @@ public class BusTest {
 		public void testdernierbus() {		//Test où le seul bus se trouve à la fin de la liste
 			// Variable
 			a = 999;
-			b = "x,x,x,x,3";
+			b = "x,x,x,3";
 
 			// Test
 			assertEquals(0, c.calc(a,b));

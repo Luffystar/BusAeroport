@@ -110,5 +110,4 @@ public class Main {
 			return idbus*max;											//On retourne le numéro du bus multiplié par le temps d'attente au quai
 		}
 	}
-
 }

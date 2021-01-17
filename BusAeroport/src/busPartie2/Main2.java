@@ -13,7 +13,7 @@ public class Main2 {
 		entree.nextLine();
 		
 		//long result = calc(timestamp, buslist);										// Appel de la fonction calc() pour calculer le numéro de bus multiplier par le temps d'attente sur le quai
-		
+		 
 		//if (result==-1) {															// S'il n'y a aucun bus, alors on dit qu'aucun bus n'arrivera sur ce quai
 		//	System.out.println("Il n'y a aucun bus qui peux vous prendre...");
 		//} else {																	// Sinon, on dit le résultat du numéro de bus multiplier par le temps d'attente sur le quai
