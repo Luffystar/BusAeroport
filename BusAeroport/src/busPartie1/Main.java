@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 	
 	/*
-	 * Problème de la Partie 1
+	 * Problème de la Partie 1.
 	 * 
 	 * Le Problème est qu'il faut prendre un bus pour pouvoir aller à l'aéroport.
 	 * Pour celà, on a un horodatage 'timestamp' qui défini la minute d'arrivée au quai de bus
